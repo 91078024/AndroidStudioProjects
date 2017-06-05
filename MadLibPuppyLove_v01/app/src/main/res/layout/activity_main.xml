@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="org.palmdigital.madlibpuppylove_v01.MainActivity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Enter a color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_color"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_color01"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Enter a body part"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_bodypart"
+                    android:layout_weight="0.85"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.11" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_bodypart01"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.01"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Enter a noun"
+                    android:layout_width="87dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_noun"
+                    android:textSize="18sp"
+                    android:layout_weight="0.17" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_noun01"
+                    android:textSize="18sp"
+                    android:layout_weight="0.15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Enter a verb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_verb"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_verb01"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Enter an adjective "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_adjective01"
+                    android:layout_weight="0.79"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_adjective01"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Enter an adjective "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_adjective02"
+                    android:layout_weight="0.74"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.93" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_adjective02"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Enter a verb "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_verb02"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_verb02"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.01"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Enter a noun"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_noun02"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75" />
+
+                <EditText
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_noun02"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.01"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Enter a noun"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_noun03"
+                    android:textSize="18sp"
+                    android:layout_weight="0.08" />
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.05" />
+
+                <EditText
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edit_text_noun03"
+                    android:textSize="18sp"
+                    android:layout_weight="0.05" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_story"
+                android:textSize="18sp"
+                android:layout_weight="0.18" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:text="Make story"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="makeStory"
+        android:layout_weight="0.04"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
